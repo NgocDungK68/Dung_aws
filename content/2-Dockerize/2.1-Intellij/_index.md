@@ -10,23 +10,23 @@ pre : " <b> 2.1 </b> "
 
 1. Open **Intellij** - **Maven** - **Lifecycle** - **clean** - **install**
 
-![Dockerize](/images/1/0001.png)
+![Dockerize](/Dung_aws_study/Dung_aws_study/images/1/0001.png)
 
 **!!!** ***Make sure there is no error when running the above process***
 
 * If it is **Build Success** then go to the next step
 
-![Dockerize](/images/1/0002.png)
+![Dockerize](/Dung_aws_study/Dung_aws_study/images/1/0002.png)
 
 2. Running JAR file
 
 - After **Build Success**, copy JAR file and open terminal
 
-![Dockerize](/images/1/0003.png)
+![Dockerize](/Dung_aws_study/Dung_aws_study/images/1/0003.png)
 
 - Run **java -jar *JAR file***
 
-![Dockerize](/images/1/0004.png)
+![Dockerize](/Dung_aws_study/Dung_aws_study/images/1/0004.png)
 
 
 3. Deploy
@@ -44,15 +44,15 @@ pre : " <b> 2.1 </b> "
 
    ```
 
-![Dockerize](/images/1/0005.png)
+![Dockerize](/Dung_aws_study/images/1/0005.png)
 
 - Build Docker Image
 - Run **docker build -f Dockerfile -t spring-boot .**
 
-![Dockerize](/images/1/0006.png)
+![Dockerize](/Dung_aws_study/images/1/0006.png)
 
 4. Open **Docker**
 - After build successfully, open **Docker Desktop** - **Images**
 - Check if there is **spring-boot** file as you named
 
-![Dockerize](/images/1/0007.png)
+![Dockerize](/Dung_aws_study/images/1/0007.png)
