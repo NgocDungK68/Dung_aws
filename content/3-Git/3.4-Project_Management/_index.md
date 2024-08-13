@@ -21,7 +21,7 @@ Download and install **Git** here: [Git_Install](https://git-scm.com/).
     ```
     git config --global user.email "username@gmail.com"
     ```
-![Git_Config](/Dung_aws_study/images/1.4/0001.png)
+![Git_Config](/Dung_aws/images/1.4/0001.png)
 
 3. Check config
     ```
@@ -30,7 +30,7 @@ Download and install **Git** here: [Git_Install](https://git-scm.com/).
     ```
     git config --global user.email
     ```
-![Git_Config](/Dung_aws_study/images/1.4/0002.png)
+![Git_Config](/Dung_aws/images/1.4/0002.png)
 
 
 #### Step 3: Initialize repository
@@ -48,7 +48,7 @@ Download and install **Git** here: [Git_Install](https://git-scm.com/).
 - **direction_name** is the name of the folder you want to move into.
 - This command will change your current direction to **direction_name**.
 
-![Git_Initialize](/Dung_aws_study/images/1.4/0003.png)
+![Git_Initialize](/Dung_aws/images/1.4/0003.png)
 
 2. Initialize **Repository**
     ```
@@ -56,7 +56,7 @@ Download and install **Git** here: [Git_Install](https://git-scm.com/).
     ```
 - After running this command, Git will initialize a new repository in your current direction.
 - This involves creating a hidden .git directory containing all the files needed to track changes in the project.
-![Git_Initialize](/Dung_aws_study/images/1.4/0004.png)
+![Git_Initialize](/Dung_aws/images/1.4/0004.png)
 
 3. Check status
     ```
@@ -76,7 +76,7 @@ This step involves creating a **README.md** file, adding content to it, and then
     ```
 This command will create a README.md file and add the line "#AdvancedGitProject" to it.
 
-![Git](/Dung_aws_study/images/1.4/0005.png)
+![Git](/Dung_aws/images/1.4/0005.png)
 
 2. Check the contents of the **README.md** file:
     ```
@@ -93,7 +93,7 @@ This command will create a README.md file and add the line "#AdvancedGitProject"
     git commit -m "Add README.md with project description"
     ```
 
-![Git](/Dung_aws_study/images/1.4/0006.png)
+![Git](/Dung_aws/images/1.4/0006.png)
 
 #### Step 5: Create New Branch and Use Rebase
 In this step, you will create a new branch, make some changes on that branch, then rebase the new branch onto the main branch.
@@ -104,7 +104,7 @@ In this step, you will create a new branch, make some changes on that branch, th
     ```
 - This command creates a new branch named **feature-branch** and switches you to that branch.
 
-![Git](/Dung_aws_study/images/1.4/0007.png)
+![Git](/Dung_aws/images/1.4/0007.png)
 
 2. Create a new file **feature.txt** and add the content, then commit the changes:
     ```
@@ -121,7 +121,7 @@ In this step, you will create a new branch, make some changes on that branch, th
 - **git add feature.txt**: Add feature.txt file to staging area.
 - **git commit -m "Add feature.txt with new feature description"**: Commit changes with message.
 
-![Git](/Dung_aws_study/images/1.4/0008.png)
+![Git](/Dung_aws/images/1.4/0008.png)
 
 3. Switch to main branch (**main** or **master**):
     ```
@@ -139,7 +139,7 @@ In this step, you will create a new branch, make some changes on that branch, th
     git commit -m "Add hotfix.txt with hotfix description"
     ```
 
-![Git](/Dung_aws_study/images/1.4/0009.png)
+![Git](/Dung_aws/images/1.4/0009.png)
 
 5. Rebase the **feature-branch** to the **master branch**:
     ```
@@ -151,7 +151,7 @@ In this step, you will create a new branch, make some changes on that branch, th
 
 - Move **feature-branch** commits above **main** branch's latest commit.
 
-![Git](/Dung_aws_study/images/1.4/0010.png)
+![Git](/Dung_aws/images/1.4/0010.png)
 
 #### Step 6: Using Cherry-pick
 **Cherry-pick** in Git allows you to select one or more commits from another branch and apply them to the current branch. This is how you can bring in changes from a specific commit without having to merge the entire branch.
@@ -173,7 +173,7 @@ In this step, you will create a new branch, make some changes on that branch, th
     git commit -m "Add anotherfix.txt with another fix"
     ```
 
-![Git](/Dung_aws_study/images/1.4/0011.png)
+![Git](/Dung_aws/images/1.4/0011.png)
 
 2. **Cherry-pick** this commit into the **feature-branch**:
 - Find the ID of the newly created commit. You can use one of the following commands to view commit history and get commit ID:
@@ -193,7 +193,7 @@ In this step, you will create a new branch, make some changes on that branch, th
     ```
     Replace <ID_commit> with your actual commit ID.
 
-![Git](/Dung_aws_study/images/1.4/0012.png)
+![Git](/Dung_aws/images/1.4/0012.png)
 
 #### Step 7: Using Stash
 Stash in Git allows you to temporarily save uncommitted changes in the current work, so you can get back to working on something else without having to commit those changes immediately.
@@ -211,7 +211,7 @@ Stash in Git allows you to temporarily save uncommitted changes in the current w
     ```
 - You will see **temp.txt** as a changed file that has not been committed.
 
-![Git](/Dung_aws_study/images/1.4/0013.png)
+![Git](/Dung_aws/images/1.4/0013.png)
 
 3. Add file to staging area
 - You can add the changed file to the staging area:
@@ -234,7 +234,7 @@ Stash in Git allows you to temporarily save uncommitted changes in the current w
     ```
 - When you run one of the above commands, Git will store your changes and restore the working directory status with no uncommitted changes.
 
-![Git](/Dung_aws_study/images/1.4/0014.png)
+![Git](/Dung_aws/images/1.4/0014.png)
 
 5. Do some other work
 - Now, you can do some other work. For example, switch to **main** branch and make some changes:
@@ -250,7 +250,7 @@ Stash in Git allows you to temporarily save uncommitted changes in the current w
     ```
     git commit -m "Add another task"
     ```
-![Git](/Dung_aws_study/images/1.4/0015.png)
+![Git](/Dung_aws/images/1.4/0015.png)
 
 6. Retrieve changes from stash
 - Once you are done working on the other branch, you can go back to **feature-branch** and retrieve your stashed changes:
@@ -272,7 +272,7 @@ Stash in Git allows you to temporarily save uncommitted changes in the current w
     ```
     git status
     ```
-![Git](/Dung_aws_study/images/1.4/0016.png)
+![Git](/Dung_aws/images/1.4/0016.png)
 
 
 <!-- #### Step 8: Using Submodules
