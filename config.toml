@@ -1,4 +1,4 @@
-#baseURL = "Dung_aws_study"
+#baseURL = "Dung_aws"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 # Change the default theme to be use when building the site with Hugo
