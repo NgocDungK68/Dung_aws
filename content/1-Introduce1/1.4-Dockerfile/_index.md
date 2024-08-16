@@ -21,7 +21,7 @@ pre : " <b> 1.4 </b> "
 
 ## The process of a system using Docker
 
-![Dockerfile](/Dung_aws_study/images/1-Introduce/process.png)
+![Dockerfile](/Dung_aws/images/docker/process.png)
 
 A Docker system is implemented by three main steps:
 

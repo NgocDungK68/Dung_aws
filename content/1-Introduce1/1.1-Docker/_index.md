@@ -11,4 +11,4 @@ pre : " <b> 1.1 </b> "
 Docker is a platform to provide ways to build, deploy anhd run application more easily by using containers (on virtualization platform).
 
 
-![What is Docker](/Dung_aws_study/images/1-Introduce/docker_logo.png)
+![What is Docker](/Dung_aws/images/docker/docker_logo.png)

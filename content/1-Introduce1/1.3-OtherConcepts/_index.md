@@ -15,4 +15,4 @@ pre : " <b> 1.3 </b> "
 - **Dockerfile**: Is a file that includes code for building an image.
 - **Volumns**: Is the data created when a container is run.
 
-![Docker](/Dung_aws_study/images/1-Introduce/dockerArchitecture.png)
+![Docker](/Dung_aws/images/docker/dockerArchitecture.png)
