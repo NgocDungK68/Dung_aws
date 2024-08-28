@@ -10,26 +10,26 @@ pre : " <b> 4.1 </b> "
 
 1. Open **Intellij** - **Maven** - **Lifecycle** - **clean** - **install**
 
-![Dockerize](/Dung_aws_study/Dung_aws_study/images/1/0001.png)
+![Dockerize](/Dung_aws/Dung_aws_study/images/1/0001.png)
 
 **!!!** ***Make sure there is no error when running the above process***
 
 * If it is **Build Success** then go to the next step
 
-![Dockerize](/Dung_aws_study/Dung_aws_study/images/1/0002.png)
+![Dockerize](/Dung_aws/Dung_aws_study/images/1/0002.png)
 
-2. Running JAR file
+1. Running JAR file
 
 - After **Build Success**, copy JAR file and open terminal
 
-![Dockerize](/Dung_aws_study/Dung_aws_study/images/1/0003.png)
+![Dockerize](/Dung_aws/Dung_aws_study/images/1/0003.png)
 
 - Run **java -jar *JAR file***
 
-![Dockerize](/Dung_aws_study/Dung_aws_study/images/1/0004.png)
+![Dockerize](/Dung_aws/Dung_aws_study/images/1/0004.png)
 
 
-3. Deploy
+1. Deploy
 
 - Open file **Dockerfile**
 - Copy the following code:
